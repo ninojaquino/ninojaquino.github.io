@@ -3,7 +3,7 @@
 * {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-   font-size: 20px; /* might delete this */
+  font-size: 20px; /* might delete this */
 }
 
 html {
@@ -19,7 +19,6 @@ body {
   background-color: rgba(177, 177, 177, 0.521) !important;
   /* background-color: rgba(73, 83, 228, 0.788) !important; */
 }
-
 
 /* media query css */
 
@@ -41,13 +40,13 @@ body {
     color: white;
     font-family: "Spartan", sans-serif;
   }
-  
+
   .jumbotron .container h1 {
     font-size: 3rem;
     color: white;
     font-family: "Spartan", sans-serif;
   }
-  
+
   .jumbotron .container p {
     font-size: 1rem;
     font-weight: 300;
@@ -58,11 +57,20 @@ body {
   }
 
   body {
-    background-color: #050A30 !important;
+    background-color: #050a30 !important;
   }
 
   .card {
     background-color: black !important;
+  }
+
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(255, 255, 255) !important;
+    margin: 1em 0;
+    padding: 0;
   }
 }
 
@@ -83,20 +91,19 @@ body {
     max-width: 100%;
   }
 
-
   .jumbotron .container h4 {
     font-size: 1.5rem;
     font-weight: 400;
     color: white;
     font-family: "Spartan", sans-serif;
   }
-  
+
   .jumbotron .container h1 {
     font-size: 2rem;
     color: white;
     font-family: "Spartan", sans-serif;
   }
-  
+
   .jumbotron .container p {
     font-size: 1rem;
     font-weight: 300;
@@ -106,13 +113,21 @@ body {
     letter-spacing: 1.5px;
   }
 
-
   body {
     background-color: #800020 !important;
   }
 
   .card {
     background-color: black !important;
+  }
+
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(255, 255, 255) !important;
+    margin: 1em 0;
+    padding: 0;
   }
 }
 
@@ -128,22 +143,21 @@ body {
     max-width: 100%;
   }
 
-
   .jumbotron .container h4 {
     font-size: 1rem;
     font-weight: 400;
     color: white;
     font-family: "Spartan", sans-serif;
   }
-  
+
   .jumbotron .container h1 {
     font-size: 1.5rem;
     color: white;
     font-family: "Spartan", sans-serif;
   }
-  
+
   .jumbotron .container p {
-    font-size: .75rem;
+    font-size: 0.75rem;
     font-weight: 300;
     color: white;
     font-family: "Spartan", sans-serif;
@@ -152,11 +166,20 @@ body {
   }
 
   body {
-    background-color: #F4869C !important;
+    background-color: #f4869c !important;
   }
 
   .card {
     background-color: black !important;
+  }
+
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(255, 255, 255) !important;
+    margin: 1em 0;
+    padding: 0;
   }
 }
 
@@ -177,11 +200,9 @@ body {
   padding-bottom: 20px; */
 }
 
-
 .navbar .navbar-nav .nav-item .nav-link:hover {
   color: #7bafd4;
 }
-
 
 .background img {
   width: 100%;
@@ -195,7 +216,6 @@ body {
 }
 
 /* Jumbotron CSS */
-
 
 .jumbotron {
   position: absolute;
